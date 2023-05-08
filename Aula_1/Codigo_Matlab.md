@@ -52,3 +52,33 @@
   <p align="left">
   <img src="https://github.com/Cesarquatro/Sinais_e_Sistemas/blob/main/Aula_1/Imagens/figure2_matlab.jpg">
   </p>
+
+* Sinal Contínuo:
+  ```Matlab
+  %% Sinal Contínuo
+
+  xn_continuo = 2*1.^n;
+
+  figure();
+  stem(n, xn_continuo)    
+
+  legend("Sinal Contínuo", Location="best", FontSize=20)
+  ```
+  <p align="left">
+  <img src="https://github.com/Cesarquatro/Sinais_e_Sistemas/blob/main/Aula_1/Imagens/figure3_matlab.jpg">
+  </p>
+
+* Sinal Oscilório:
+  ```Matlab
+  %% Sinal Oscilório
+
+  xn_oscilatorio = 2*(-1).^n;
+
+  figure();
+  stem(n, xn_oscilatorio)    
+
+  legend("Sinal Oscilório", Location="best", FontSize=20)
+  ```
+  <p align="left">
+  <img src="https://github.com/Cesarquatro/Sinais_e_Sistemas/blob/main/Aula_1/Imagens/figure4_matlab.jpg">
+  </p>

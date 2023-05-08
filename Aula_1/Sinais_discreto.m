@@ -15,7 +15,7 @@ stem(n, xn_crescente)
 
 hold on; % mantem o plot anterior no gráfico
 
-%% Sinal Exponencial Crescente:
+%% Sinal Exponencial Decrescente:
 
 % x(n) = 2.e^((-π/4).n)
 xn_decrescente = 2*exp(-pi/4*n);

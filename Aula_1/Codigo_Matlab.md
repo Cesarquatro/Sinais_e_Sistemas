@@ -9,7 +9,7 @@
   <img src="https://blogdocontroleiro.files.wordpress.com/2017/08/sinaldiscreto.png?w=477&h=263">
 </p>
 
-## <img align="center" alt="MatLab" height="40" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg"/>Código MatLab:
+## <img align="center" alt="MatLab" height="40" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg"/>[Código](https://github.com/Cesarquatro/Sinais_e_Sistemas/blob/main/Aula_1/Sinais_discreto.m) MatLab:
 
 * Sinal Exponencial Crescente e Decrescente:
   ```Matlab

@@ -82,3 +82,22 @@
   <p align="left">
   <img src="https://github.com/Cesarquatro/Sinais_e_Sistemas/blob/main/Aula_1/Imagens/figure4_matlab.jpg">
   </p>
+
+* Sinal Senoidal:
+  ```Matlab
+  %% Sinal Senoidal
+
+  % A.cos(ω0.n + Φ)
+  n = -10:1:10;
+
+  % 2 . cos(π/4.n + π/2) 
+  xn_senoidal = 2 * cos(pi/4*n + pi/2);
+
+  figure();
+  stem(n, xn_senoidal)    
+
+  legend("Sinal Senoidal", Location="best", FontSize=20)
+  ```
+  <p align="left">
+  <img src="https://github.com/Cesarquatro/Sinais_e_Sistemas/blob/main/Aula_1/Imagens/figure5_matlab.jpg">
+  </p>

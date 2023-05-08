@@ -1,7 +1,7 @@
 clear; close all; clc
 
 %% O que são sinais?
-% Matemateca - https://youtu.be/bR0Jm22kdLA 
+% Fonte - Matemateca - https://youtu.be/bR0Jm22kdLA 
 
 %% Sinal Exponencial Crescente:
 % C. e^(β.n)

@@ -11,7 +11,7 @@
 
 ## <img align="center" alt="MatLab" height="40" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg"/>Código MatLab:
 
-* Sinal Exponencial Crescente:
+* Sinal Exponencial Crescente e Decrescente:
   ```Matlab
   %% Sinal Exponencial Crescente:
   % C. e^(β.n)
@@ -24,7 +24,31 @@
   stem(n, xn_crescente)
 
   hold on; % mantem o plot anterior no gráfico
+  
+  %% Sinal Exponencial decrescente:
+
+  % x(n) = 2.e^((-π/4).n)
+  xn_decrescente = 2*exp(-pi/4*n);
+
+  stem(n, xn_decrescente)
+  legend("Exponencial Crescente", "Exponencial Decrescente", Location="best", FontSize=20)
   ```
   <p align="left">
   <img src="https://github.com/Cesarquatro/Sinais_e_Sistemas/blob/main/Aula_1/Imagens/figure1_matlab.jpg">
+  </p>
+
+* Sinal Exponencial alternado:
+  ```Matlab
+  %% Sinal Exponencial alternado
+
+  % x(n) = (-e^(π/4)) ^n
+  xn_alternado = (-exp(pi/4)).^n;
+
+  figure();
+  stem(n, xn_alternado)
+
+  legend("Exponencial Alternado", Location="best", FontSize=20)
+  ```
+  <p align="left">
+  <img src="https://github.com/Cesarquatro/Sinais_e_Sistemas/blob/main/Aula_1/Imagens/figure2_matlab.jpg">
   </p>
